@@ -1,0 +1,23 @@
+{
+  "name": "TradeQQ-APP-Server",
+  "version": "0.1.0",
+  "description": "TradeQQ-APP-Server system !",
+  "main": "bin/www",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TradeQQ-APP-Server"
+  ],
+  "author": "leo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mysql": "^2.10.2",
+    "nodemailer":"0.7.1",
+    "redis":"*",
+    "formidable":"*",
+    "xml-writer":"*"
+  }
+}
